@@ -5,7 +5,7 @@ It is a reimplementation of a very similar tool written in Python.
 
     https://github.com/boomlinde/lpd8
 
-I decided to reimplement because the Python tool only works on Linux.
+I decided to reimplement in Go because the Python tool only works on Linux.
 
 
 == Building & Running ==========================================================
