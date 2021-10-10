@@ -1,0 +1,384 @@
+{
+  "programs": {
+    "1": {
+      "channel": 1,
+      "pads": [
+        {
+          "note": 36,
+          "pc": 0,
+          "cc": 1,
+          "toggle": false
+        },
+        {
+          "note": 37,
+          "pc": 1,
+          "cc": 2,
+          "toggle": false
+        },
+        {
+          "note": 38,
+          "pc": 2,
+          "cc": 3,
+          "toggle": false
+        },
+        {
+          "note": 39,
+          "pc": 3,
+          "cc": 4,
+          "toggle": false
+        },
+        {
+          "note": 40,
+          "pc": 4,
+          "cc": 5,
+          "toggle": false
+        },
+        {
+          "note": 41,
+          "pc": 5,
+          "cc": 6,
+          "toggle": false
+        },
+        {
+          "note": 42,
+          "pc": 6,
+          "cc": 7,
+          "toggle": false
+        },
+        {
+          "note": 43,
+          "pc": 7,
+          "cc": 8,
+          "toggle": false
+        }
+      ],
+      "knobs": [
+        {
+          "cc": 20,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 21,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 22,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 23,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 24,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 25,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 26,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 27,
+          "min": 0,
+          "max": 127
+        }
+      ]
+    },
+    "2": {
+      "channel": 1,
+      "pads": [
+        {
+          "note": 44,
+          "pc": 0,
+          "cc": 9,
+          "toggle": false
+        },
+        {
+          "note": 45,
+          "pc": 1,
+          "cc": 10,
+          "toggle": false
+        },
+        {
+          "note": 46,
+          "pc": 2,
+          "cc": 11,
+          "toggle": false
+        },
+        {
+          "note": 47,
+          "pc": 3,
+          "cc": 12,
+          "toggle": false
+        },
+        {
+          "note": 48,
+          "pc": 4,
+          "cc": 1,
+          "toggle": false
+        },
+        {
+          "note": 49,
+          "pc": 5,
+          "cc": 2,
+          "toggle": false
+        },
+        {
+          "note": 50,
+          "pc": 6,
+          "cc": 3,
+          "toggle": false
+        },
+        {
+          "note": 51,
+          "pc": 7,
+          "cc": 4,
+          "toggle": false
+        }
+      ],
+      "knobs": [
+        {
+          "cc": 20,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 21,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 22,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 23,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 24,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 25,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 26,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 27,
+          "min": 0,
+          "max": 127
+        }
+      ]
+    },
+    "3": {
+      "channel": 1,
+      "pads": [
+        {
+          "note": 60,
+          "pc": 0,
+          "cc": 1,
+          "toggle": false
+        },
+        {
+          "note": 62,
+          "pc": 1,
+          "cc": 2,
+          "toggle": false
+        },
+        {
+          "note": 64,
+          "pc": 2,
+          "cc": 3,
+          "toggle": false
+        },
+        {
+          "note": 65,
+          "pc": 3,
+          "cc": 4,
+          "toggle": false
+        },
+        {
+          "note": 67,
+          "pc": 4,
+          "cc": 5,
+          "toggle": false
+        },
+        {
+          "note": 69,
+          "pc": 5,
+          "cc": 6,
+          "toggle": false
+        },
+        {
+          "note": 71,
+          "pc": 6,
+          "cc": 8,
+          "toggle": false
+        },
+        {
+          "note": 72,
+          "pc": 7,
+          "cc": 9,
+          "toggle": false
+        }
+      ],
+      "knobs": [
+        {
+          "cc": 1,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 2,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 3,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 4,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 5,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 6,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 7,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 8,
+          "min": 0,
+          "max": 127
+        }
+      ]
+    },
+    "4": {
+      "channel": 4,
+      "pads": [
+        {
+          "note": 36,
+          "pc": 0,
+          "cc": 9,
+          "toggle": false
+        },
+        {
+          "note": 38,
+          "pc": 1,
+          "cc": 10,
+          "toggle": false
+        },
+        {
+          "note": 40,
+          "pc": 2,
+          "cc": 11,
+          "toggle": false
+        },
+        {
+          "note": 41,
+          "pc": 3,
+          "cc": 12,
+          "toggle": false
+        },
+        {
+          "note": 43,
+          "pc": 4,
+          "cc": 13,
+          "toggle": false
+        },
+        {
+          "note": 45,
+          "pc": 5,
+          "cc": 14,
+          "toggle": false
+        },
+        {
+          "note": 47,
+          "pc": 6,
+          "cc": 15,
+          "toggle": false
+        },
+        {
+          "note": 48,
+          "pc": 7,
+          "cc": 16,
+          "toggle": false
+        }
+      ],
+      "knobs": [
+        {
+          "cc": 1,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 2,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 3,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 4,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 5,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 6,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 7,
+          "min": 0,
+          "max": 127
+        },
+        {
+          "cc": 8,
+          "min": 0,
+          "max": 127
+        }
+      ]
+    }
+  }
+}
