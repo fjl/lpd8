@@ -27,11 +27,11 @@ func open(devname string) (*conn, error) {
 	log.Println("midi input:", in)
 	log.Println("midi output:", out)
 	if err := in.Open(); err != nil {
-		return nil, fmt.Errorf("can't open MIDI input:", err)
+		return nil, fmt.Errorf("can't open MIDI input: %v", err)
 	}
 	if err := out.Open(); err != nil {
 		in.Close()
-		return nil, fmt.Errorf("can't open MIDI output:", err)
+		return nil, fmt.Errorf("can't open MIDI output: %v", err)
 	}
 
 	c := &conn{
