@@ -14,7 +14,7 @@ func TestBinary(t *testing.T) {
 	prog.Knobs[4].CC = 99
 	prog.Knobs[4].Min = 10
 	prog.Knobs[4].Max = 50
-	want := "070000000000000000000000000000000a002c000000000000000016000000000000000000000000000000000032630a000000000000000000"
+	want := "0700000000000000000000000000000a002c000000000000000016000000000000000000000000000000000000630a32000000000000000000"
 
 	// Check encoding.
 	enc, err := prog.MarshalBinary()
@@ -23,7 +23,7 @@ func TestBinary(t *testing.T) {
 	}
 	t.Logf("enc: %x", enc)
 	if bin, _ := hex.DecodeString(want); !bytes.Equal(enc, bin) {
-		t.Errorf("wrong encoding")
+		t.Errorf("wrong encoding: %x", bin)
 	}
 
 	// Check decoding.
