@@ -21,13 +21,6 @@ type Pad struct {
 	Toggle bool `json:"toggle"`
 }
 
-func (pad *Pad) toggle() byte {
-	if pad.Toggle {
-		return 1
-	}
-	return 0
-}
-
 // Knob is the configuration of a single knob in a program.
 type Knob struct {
 	CC  byte `json:"cc"`
