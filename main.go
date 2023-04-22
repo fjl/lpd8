@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io/ioutil"
 	"log"
@@ -9,6 +10,7 @@ import (
 
 	"github.com/docopt/docopt-go"
 	"github.com/fjl/lpd8/internal/lpd8"
+	"github.com/tidwall/jsonc"
 )
 
 var usage = `LPD8 tool.
@@ -145,12 +147,26 @@ func doWriteProgram(c *conn, progIndex int, file string) {
 	fmt.Println("OK")
 }
 
+// readJSON reads a JSON file. Note that JSONC comments and trailing commas are supported.
 func readJSON(file string, v interface{}) error {
 	text, err := ioutil.ReadFile(file)
 	if err != nil {
 		return err
 	}
-	return json.Unmarshal(text, v)
+	text = jsonc.ToJSONInPlace(text)
+	err = json.Unmarshal(text, v)
+	var syntaxError *json.SyntaxError
+	if errors.As(err, &syntaxError) {
+		line := 1
+		for i := int64(0); i < syntaxError.Offset-1; i++ {
+			fmt.Printf("%q\n", text[i])
+			if text[i] == '\n' {
+				line++
+			}
+		}
+		err = fmt.Errorf("%w (at line %d)", err, line)
+	}
+	return err
 }
 
 func writeJSON(file string, v interface{}) error {
